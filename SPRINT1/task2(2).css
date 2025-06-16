@@ -1,0 +1,57 @@
+.container{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.box{
+    height:40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
+.box1{
+    height: 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
+.middle{
+    height:150px;
+    width:350px;
+    border-bottom: 1px solid black;
+
+    
+}
+.one{
+    width:100px;
+    height:150px;
+    border-right:1px solid black;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+.two{
+    width:243px;
+    height:150px;
+    border:none;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    
+}
+.foot{
+    text-align: center;
+    margin-top: 15px;
+}
+b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 5px;
+    display: inline;
+}
+
+    
+
+

@@ -1,0 +1,104 @@
+p{
+    height:25px;
+    width:600px;
+    color: white;
+    background-color: rgb(2, 100, 113);
+    margin: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1px;
+    
+}
+.container{
+    width: 550px;
+    height: 460px;
+    background-color: rgb(226, 246, 255);
+    margin: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head{
+    width:550px;
+    height:70px;
+    background-color: rgb(157, 183, 195);
+    align-content: center;
+    text-align: center;
+}
+.box1{
+    width:550px;
+    height: 150px;
+    margin: 5px;
+    display: flex;
+    flex-direction:row;
+    
+
+}
+.box11{
+    height: 150px;
+    width:330px;
+    background-color: rgb(157, 183, 195);
+    margin: 5px;
+    align-content: center;
+    text-align: center;
+    
+}
+.box12{
+    height: 150px;
+    width:270px;
+    margin: 5px;
+}
+.box121{
+    width: 220px;
+    height:95px;
+    background-color: rgb(157, 183, 195);
+    align-content: center;
+    text-align: center;
+
+}
+.box122{
+    width:220px;
+    height:45px;
+    background-color:rgb(194, 194, 27) ;
+    margin-top: 10px;
+    align-content: center;
+    text-align: center;
+}
+.feature{
+    width:520px;
+    height:70px ;
+    background-color:  rgb(157, 183, 195);
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+}
+.box2{
+   width: 550px ;
+   height: 70px;
+   margin:10px;
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: row;
+    
+}
+.box21{
+    width:290px;
+    height:60px;
+    background-color: rgb(157, 183, 195) ;
+    align-content: center;
+    text-align: center;
+    
+}
+.box22{
+     width: 220px;
+     height: 60px;
+     background-color:rgb(194, 194, 27);
+     margin-left: 10px;
+     align-content: center;
+    text-align: center;
+}
+.foot{
+ width:550px;
+ height: 73px;
+ background-color: rgb(157, 183, 195);
+ margin:0;
+ align-content: center;
+ text-align: center;
+}
