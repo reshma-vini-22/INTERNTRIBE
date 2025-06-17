@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        
+        var password=String(prompt("Enter the password : "))
+        
+        function strongPassword(passwor){
+            if(password.length<8){
+                console.log("Password must contain atleast 8 characters")
+            }
+            let hasUpper=false
+            let hasInner=false
+            let hasDigit=false
+            let hasSpecial=false
+            for(let i=0;i<password.length;i++){
+                let ch=password[i]
+                if(ch>='a' && ch<='z'){
+                    hasLower=true
+                }
+                else if(ch>='A' && ch<='Z'){
+                    hasUpper=true
+                }
+                else if(ch>=0 && ch<=0){
+                    hasDigit=true
+                }
+                else{
+                    hasSpecial=true
+                }
+            }
+            if(hasUpper && hasLower && hasDigit && hasSpecial){
+                console.log("Password is Strong")
+            }
+            else{
+                console.log("Password should contain atleast one upper word & atleast one lower character & tleast one digit & atleast one special character")
+            }
+
+        }
+        strongPassword(password)
+        
+    </script>
+</body>
+</html>
+        
+        
