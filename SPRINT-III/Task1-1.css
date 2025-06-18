@@ -1,0 +1,42 @@
+.container{
+    width:500px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    color: white;
+
+}
+.one{
+    height:70px;
+    width:500px;
+    background-color: rgb(206, 206, 1);
+    align-content: center;
+    text-align: center;
+}
+.two{
+    height:200px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    height:200px;
+    width:150px;
+    background-color: blue;
+    align-content: center;
+    text-align: center;
+}
+.article{
+    height:200px;
+    width:350px;
+    background-color: green;
+    align-content: center;
+    text-align: center;
+}
+.three{
+    height:30px;
+    width:500px;
+    background-color: red;
+    align-content: center;
+    text-align: center;
+}

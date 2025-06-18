@@ -1,0 +1,71 @@
+.container{
+    width:600px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+  width:600px;
+  height:50px;
+  background-color: rgb(206, 199, 199);
+  align-content: center;
+  text-align: center;
+  font-size: xx-large;
+  
+}
+
+.nav{
+    height: 50px;
+    width:600px;
+    background-color:  rgb(206, 199, 199);
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+}
+.feature{
+    height:150px;
+    width:600px;
+    background-color:  rgb(206, 199, 199);
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.column{
+    width:600px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.one{
+    width:190px;
+    height:150px;
+    background-color:  rgb(206, 199, 199);
+    justify-content: center;
+    text-align: center;
+}
+.two{
+    width:190px;
+    height:150px;
+    background-color:  rgb(206, 199, 199);
+    justify-content: center;
+    text-align: center;
+}
+.three{
+    width:190px;
+    height:150px;
+    background-color:  rgb(206, 199, 199);
+    justify-content: center;
+    text-align: center;
+}
+.foot{
+    width:600px;
+    height:70px;
+    background-color: rgb(206, 199, 199) ;
+    align-content: space-around;
+    text-align: center;
+}
