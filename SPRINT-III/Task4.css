@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    height: 230px;
+    margin: 20%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 30px rgb(178, 178, 178);
+}
+
+.one {
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), );
+    width: 400px;
+    background-image: url('world.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(135, 127, 127);
+    overflow: hidden;
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.nav {
+    height: 40px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav span {
+    color: white;
+}
+
+#h {
+    margin-left: 50px;
+
+}
+
+span {
+    font-size: xx-small;
+    color: rgb(75, 74, 74);
+}
+
+.barcode {
+    width: 30px;
+    height: 150px;
+    background: repeating-linear-gradient(0deg,
+            #000,
+            #000 2px,
+            #fff 3px,
+            #fff 2px,
+            #000 4px,
+            #000 4px,
+            #fff 3px,
+            #fff 5px);
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.pass {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.n2,
+.n3,
+.n4 {
+    margin-left: 40px;
+}
+
+.flight {
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.flight h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.t1 {
+    margin-left: 20px;
+}
+
+.t2 {
+    margin-left: 50px;
+}
+
+.time span {
+    color: rgb(168, 21, 21);
+}
+
+.two {
+    width: 200px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 0px 30px 30px 0px;
+
+
+}
+
+.p2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav2 {
+    height: 40px;
+    background-color: rgb(18, 2, 88);
+    border-radius: 0px 30px 0px 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 10px dotted white;
+    text-align: center;
+    align-content: center;
+
+}
+
+.a {
+    border-left: 10px dotted white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.barcode1 {
+    width: 130px;
+    height: 30px;
+    background: repeating-linear-gradient(90deg,
+            #000,
+            #000 2px,
+            #fff 3px,
+            #fff 2px,
+            #000 4px,
+            #000 4px,
+            #fff 3px,
+            #fff 5px);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+    margin-left: 20px;
+}
+
+.p22 {
+    margin-left: 30px;
+}
