@@ -1,0 +1,21 @@
+<h1 id="o1">Javascript</h1>
+<h1 id="o2">Javascript</h1>
+<h2 id="o3">Javascript</h2>
+<h2 id="o4">Javascript</h2>
+<p id="print"></p><br>
+<button id="cli" ondblclick="clicked()">Click me</button>
+<script>
+    function clicked(){
+        var press=document.querySelector("button")
+        press.style.color="white";
+        press.style.background="blue";
+        press.style.padding="5px";
+        var text=document.querySelectorAll("h1")
+        text[0].style.color="red";
+        text[1].style.color="red";
+        var text1=document.querySelectorAll("h2")
+        text1[0].style.color="green";
+        text1[1].style.color="green";
+        document.getElementById("print").innerHTML="This is a Paragraph"
+    }
+</script>

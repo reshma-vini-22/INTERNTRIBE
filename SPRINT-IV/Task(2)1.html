@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Are You a Student?</h4>
+    <input type="radio" name="stu" value="Yes">Yes
+    <input type="radio" name="stu" value="No">No
+
+    <h4>Choose Your Food</h4>
+    <input type="checkbox" name="food" value="Biriyani">Biriyani<br>
+    <input type="checkbox" name="food" value="Noodles">Noodles<br>
+    <input type="checkbox" name="food" value="Pulau">Pulau<br>
+
+    <button onclick="clicked()">Click me</button>
+    <p id="print"></p>
+</body>
+<script>
+    function clicked(){
+            const selectedStudent = document.querySelector('input[name="stu"]:checked');
+            const selectedFood = document.querySelectorAll('input[name="food"]:checked');
+
+            let student = selectedStudent ? selectedStudent.value : 'None';
+            let Food = Array.from(selectedFood).map(food => food.value);
+            const checkboxText=Food.length ? Food.join(','):'None;'
+            document.getElementById("print").innerHTML =`<strong>Are you a student:</strong> ${student} <br> <strong> Selected Food:</strong> ${checkboxText}`;
+    }
+</script>
+</html>
