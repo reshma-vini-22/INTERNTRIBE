@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .header {
+      background: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+    }
+
+    .header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 28px;
+    }
+
+    .nav-menu {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-menu li {
+      cursor: pointer;
+    }
+
+    .nav-menu li:hover {
+      color: orange;
+    }
+
+    .hero-section {
+      background-color: #f2eded;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 10%;
+    }
+
+    .hero-text {
+      width: 50%;
+    }
+
+    .hero-text h2 {
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+    }
+
+    .hero-section img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .btn {
+      background-color: #e86f19;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .content-heading {
+      font-size: 20px;
+      margin: 40px 10% 20px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 0 10% 40px;
+    }
+
+    .card {
+      width: 30%;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      background-color: #111;
+      color: #fff;
+      padding: 40px 10%;
+    }
+
+    .post, .about, .social {
+      width: 30%;
+    }
+
+    .post-item {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .date-box {
+      background: #fff;
+      color: #000;
+      text-align: center;
+      padding: 8px;
+      margin-right: 10px;
+      border-radius: 5px;
+      width: 50px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .social-link img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #111;
+      color: #ccc;
+      font-size: 0.85rem;
+    }
+    p{
+        font-size: small;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Bloom</h1>
+    <ul class="nav-menu">
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Services</li>
+      <li>Portfolio</li>
+      <li>Contact Us</li>
+    </ul>
+  </div>
+
+  <section class="hero-section">
+    <div class="hero-text">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <p>Vestibulum pulvinar tincidunt placerat. Nulla porta porttitor sem, a ultrices magna feugiat quis.</p>
+      <button class="btn">Learn More</button>
+    </div>
+    <img src="img1.jpg" alt="Main Banner" />
+  </section>
+
+  <h2 class="content-heading">This is a Heading</h2>
+  <section class="cards">
+    <div class="card">
+      <img src="black.jpg" alt="card1">
+      <h4>Aliquam et iaculis sapien</h4>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <button class="btn">Learn More</button>
+    </div>
+    <div class="card">
+      <img src="black.jpg" alt="card2">
+      <h4>Aliquam et iaculis sapien</h4>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <button class="btn">Learn More</button>
+    </div>
+    <div class="card">
+      <img src="black.jpg" alt="card3">
+      <h4>Aliquam et iaculis sapien</h4>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <button class="btn">Learn More</button>
+    </div>
+  </section>
+
+  <section class="footer-top">
+    <div class="post">
+      <h4>Latest Posts</h4>
+      <div class="post-item">
+        <div class="date-box">
+          <h6>JULY</h6><h2>27</h2>
+        </div>
+        <div>
+          <h6>Aliquam et iaculis sapien</h6>
+          <p>Vestibulum pulvinar tincidunt placerat.</p>
+        </div>
+      </div>
+      <div class="post-item">
+        <div class="date-box">
+          <h6>JULY</h6><h2>27</h2>
+        </div>
+        <div>
+          <h6>Aliquam et iaculis sapien</h6>
+          <p>Vestibulum pulvinar tincidunt placerat.</p>
+        </div>
+      </div>
+      <div class="post-item">
+        <div class="date-box">
+          <h6>JULY</h6><h2>27</h2>
+        </div>
+        <div>
+          <h6>Aliquam et iaculis sapien</h6>
+          <p>Vestibulum pulvinar tincidunt placerat.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <h4>About</h4>
+      <p>Nulla porta porttitor sem, a ultrices magna feugiat quis. Cras pretium odio eget felis consequat.</p>
+    </div>
+
+    <div class="social">
+      <h4>Stay Connected</h4>
+      <div class="social-link"><img src="face.jpg" alt="Facebook">Facebook</div>
+      <div class="social-link"><img src="twit.jpg" alt="Twitter">Twitter</div>
+      <div class="social-link"><img src="rss.jpg" alt="RSS">RSS</div>
+      <div class="social-link"><img src="g+.jpg" alt="Google+">Google+</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2013. All rights reserved Bloom Web Design
+  </footer>
+</body>
+</html>
