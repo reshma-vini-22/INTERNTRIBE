@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  color: #e91e63;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu li {
+  cursor: pointer;
+}
+
+.menu li:hover {
+  color: #e91e63;
+}
+
+.hero-section {
+  display: flex;
+  background-color: #ffcbd2;
+  padding: 40px 5%;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text span {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: white;
+  color: #e91e63;
+  transition: 0.4s;
+}
+
+.hero-image {
+  width: 35%;
+  height: auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 5%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  max-width: 200px;
+}
+
+.feature-box i {
+  font-size: 30px;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.feature-box h3 {
+  margin-bottom: 5px;
+}
+
+.feature-box span {
+  font-size: 13px;
+  color: #555;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 5%;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.item-1 { background-image: url('two.jpg'); }
+.item-2 { background-image: url('four.jpg'); }
+.item-3 { background-image: url('one.jpg'); }
+.item-4 { background-image: url('three.jpg'); }
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.caption span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 30px 5%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1>Florist 🌸</h1>
+      <ul class="menu">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SERVICES</li>
+        <li>SHOP</li>
+        <li>PAGES</li>
+        <li>BLOG</li>
+        <li>CONTACT</li>
+        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+        <li><i class="fa-regular fa-heart"></i></li>
+        <li><i class="fa-solid fa-bag-shopping"></i></li>
+      </ul>
+    </div><div class="hero-section">
+  <div class="hero-text">
+    <span>FRESH FLOWER & GIFT SHOP</span>
+    <h2>Making beautiful flowers <br> a part of your life.</h2>
+    <button>SHOP NOW</button>
+  </div>
+  <img class="hero-image" src="tulip.jpg" alt="Tulip">
+</div>
+
+<div class="features">
+  <div class="feature-box">
+    <i class="fas fa-seedling"></i>
+    <div>
+      <h3>100% Freshness</h3>
+      <span>Most people are unaware <br> the less common flower.</span>
+    </div>
+  </div>
+  <div class="feature-box">
+    <i class="fas fa-paint-brush"></i>
+    <div>
+      <h3>Made by Artist</h3>
+      <span>Most people are unaware <br> the less common flower.</span>
+    </div>
+  </div>
+  <div class="feature-box">
+    <i class="fas fa-truck"></i>
+    <div>
+      <h3>Own Courier</h3>
+      <span>Most people are unaware <br> the less common flower.</span>
+    </div>
+  </div>
+  <div class="feature-box">
+    <i class="fas fa-smile"></i>
+    <div>
+      <h3>Customer Happy</h3>
+      <span>Most people are unaware <br> the less common flower.</span>
+    </div>
+  </div>
+</div>
+
+<div class="gallery">
+  <div class="gallery-item item-1"><div class="caption">Fresh Flower<br><span>(flower 1)</span></div></div>
+  <div class="gallery-item item-2"><div class="caption">Succulent plants<br><span>(flower 2)</span></div></div>
+  <div class="gallery-item item-3"><div class="caption">Cactus plants<br><span>(flower 3)</span></div></div>
+  <div class="gallery-item item-4"><div class="caption">Furniture tree<br><span>(flower 4)</span></div></div>
+</div>
+
+<footer>
+  &copy; 2025 Florist Shop. All rights reserved. | Designed with love 🌸
+</footer>
+
+  </div>
+</body>
+</html>
