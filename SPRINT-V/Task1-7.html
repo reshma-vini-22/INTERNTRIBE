@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const numbers = [1, 2, 3, 2, 4, 2, 5] ; 
+
+    function findIndex(val,arr){
+        var first=arr.indexOf(val)
+        var last=arr.lastIndexOf(val)
+        return {
+            firstIndex : first,
+            lastIndex : last      
+        }
+        
+    }
+    console.log(findIndex(2,numbers))
+</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+     function mapStudents(students, name) {
+              const map = new Map(students.map(s => [s.name, s.score]));
+             return map.get(name) 
+}
+
+const students = [
+  { name: 'Alice', score: 85 },
+  { name: 'Bob', score: 92 },
+  { name: 'Charlie', score: 78 }
+];
+
+console.log("Score of Bob : "+mapStudents(students, 'Bob'));    
+console.log("Score of Alice : "+mapStudents(students, 'Alice')); 
+
+</script>
+</html>
