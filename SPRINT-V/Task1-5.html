@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    var fruits=['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape'];
+    function ArrayFilter(arr){
+    var newFruits=arr.filter(n=>n.length>5)
+    return newFruits;
+    }
+
+    console.log("Filterd Fruits with more than 5 letters:")
+    console.log(ArrayFilter(fruits))
+</script>
+</html>
