@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const employees = [
+        { id: 1, name: 'Alice', position: 'Manager' },
+        { id: 2, name: 'Bob', position: 'Engineer' },
+        { id: 3, name: 'Charlie', position: 'Technician' }
+    ]; 
+
+    function findEmployeeById(arr,val){
+        return arr.find((p)=>p.id==val)
+    }
+    console.log(findEmployeeById(employees,2))
+</script>
+</html>
