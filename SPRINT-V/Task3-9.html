@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const tasks = [
+        { taskName: 'Task 1', dueDate: '2023-06-01' },
+        { taskName: 'Task 2', dueDate: '2024-05-01' },
+        { taskName: 'Task 3', dueDate: '2024-01-01' }
+    ];
+
+    function findOverdueTask(arr){
+        const today=new Date().toISOString().split('T')[0];
+        const Overdue=arr.find(n=>n.dueDate<today);
+        return Overdue;
+    }
+    console.log(findOverdueTask(tasks))
+</script>
+
+</html>

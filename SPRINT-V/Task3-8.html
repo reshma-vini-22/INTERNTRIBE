@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const products = [
+        { id: 101, name: 'Laptop' },
+        { id: 102, name: 'Phone' },
+        { id: 103, name: 'Tablet' }];
+
+    function findProductById(arr,val){
+        var id1=arr.find((s)=>([s.id]==val));
+        return id1;
+    }
+    console.log(findProductById(products,102))
+    console.log(findProductById(products,103))
+</script>
+
+</html>

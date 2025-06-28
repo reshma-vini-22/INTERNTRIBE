@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const students = [
+        { name: 'Alice', age: 21 },
+        { name: 'Bob', age: 25 },
+        { name: 'Charlie', age: 23 }
+    ];
+    function findStudentByName(arr,val){
+        var names=arr.find((s)=>([s.name]==val))
+        return names;
+    }
+    console.log(findStudentByName(students,'Bob'))
+    console.log(findStudentByName(students,'Alice'))
+</script>
+
+</html>

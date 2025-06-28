@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+</body>
+<script>
+    const cart= [
+    { item: 'apple', price: 1.5 },
+    { item: 'banana', price: 2.0 },
+    { item: 'orange', price: 1.25 }
+    ];
+    
+    function calculateTotal(arr){
+        var total=arr.reduce((sum,p)=>(sum = sum+p.price),0)
+        return total
+        
+    }
+    console.log("Sum of the Prices : "+calculateTotal(cart))
+</script>
+
+</html>

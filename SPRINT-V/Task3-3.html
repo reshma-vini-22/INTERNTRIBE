@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+
+    function Count(arr) {
+        var result = arr.reduce(
+            (old, new1) => {
+                if (old[new1])
+                    old[new1]++
+
+                else
+                    old[new1] = 1
+
+                return old;
+            }, {});
+            return result
+    }
+    console.log(Count(fruits))
+</script>
+
+</html>

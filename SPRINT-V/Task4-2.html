@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const books = [
+        { title: '1984', author: 'George Orwell' },
+        { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+        { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' }
+    ]; 
+
+    function findBookByTitle(arr,val){
+        return arr.find((s)=>s.title==val)
+    }
+    console.log(findBookByTitle(books,'1984'))
+</script>
+
+</html>
