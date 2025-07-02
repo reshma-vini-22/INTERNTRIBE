@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(201, 196, 196);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    background-color: black;
+    color:white;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.nav input{
+    height: 40px;
+    width:20%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    
+}
+.nav select{
+    width:10%;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+h1{
+    padding: 3%;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    
+}
+table{
+    background-color:rgb(160, 158, 158);
+    height: 300px;
+    width: 90%;
+    margin-left: 3%;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+tr{
+    background-color: rgb(255, 254, 254)
+}
+tr:hover{
+    background-color: rgb(147, 144, 144);
+}
+th{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: larger;
+   
+    height: 50px;
+}
+.printresult{
+    height:100px;
+    background-color: white;
+    margin: 3%;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    
+}
+.displayresults{
+    background-color: white;
+    margin: 3%;
+    border-radius: 10px;
+    padding: 2%;
+}
+.displayresults h4{
+    margin-left: 2%;
+}
+button{
+      background-color: black;
+      color: white;
+      height: 40px;
+      width: 20%;margin: 1%;
+}
+
+

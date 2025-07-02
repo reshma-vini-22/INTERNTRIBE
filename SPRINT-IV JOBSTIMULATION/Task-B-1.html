@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management Dashboard</title>
+  <link rel="stylesheet" href="Task-B-1.css">
+</head>
+<body>
+  <header>
+    <h1>Employee Management Dashboard</h1>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="searchInput" placeholder="Search by name...">
+    <select id="departmentFilter">
+      <option value="">All Departments</option>
+      <option value="HR">HR</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Sales">Sales</option>
+    </select>
+    <button id="uppercaseBtn">Uppercase Names</button>
+    <button id="averageSalaryBtn">Calculate Average Salary</button>
+  </section>
+
+  <section class="table-container">
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dynamically filled with JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <section class="results">
+    <p id="averageSalary">Average Salary: --</p>
+    <p id="searchResult">Search Result: --</p>
+    <p id="totalEmployees">Total Employees: --</p>
+  </section>
+
+  <script src="Task-B-1.js"></script>
+</body>
+</html>

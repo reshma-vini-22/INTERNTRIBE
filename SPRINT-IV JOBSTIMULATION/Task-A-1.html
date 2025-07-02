@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management Dashboard</title>
+    <link rel="stylesheet" href="Task-A-1.css">
+</head>
+
+<body>
+
+    <section>
+        <h1>EMPLOYEE MANAGEMENT DASKBOARD</h1>
+        <div class="nav">
+
+            <div><input type="text" id="search" placeholder="Search by name.." onkeypress="pressed()" autocomplete="off">
+                <select id="selectDepartment" onchange="changed()">
+                    <option value="">All</option>
+                    <option value="Canteen">Canteen</option>
+                    <option value="Teaching">Teaching</option>
+                    <option value="Office">Office</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="printresult">
+            <h4 id="searchResult">Search Results -</h4>
+        </div>
+        
+        <div class="table-container">
+            <table id="empList">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Department</th>
+                        <th>Role</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
+
+        </div>
+        <div class="displayresults">
+            <h4 id="printSalary">Average Salary :</h4><button id="salary" onclick="calculate()">Calulate</button>
+            <button id="convertUpper" onclick="convert()">Name To UpperCase</button>
+        </div>
+    </section>
+
+
+    <script src="Task-A-1.js"></script>
+</body>
+
+</html>
